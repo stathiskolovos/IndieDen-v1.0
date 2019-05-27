@@ -507,7 +507,6 @@ public class uploadPage extends JFrame {
 			if(monetize.isSelected()) {
 				File monetized_txt = new File(homePage.root_folder + homePage.movie_folder + "/monetized.txt");
 				FileWriter mwriter = new FileWriter(monetized_txt);
-				mwriter.write(age_rating);
 				mwriter.flush();
 				mwriter.close();
 			}
